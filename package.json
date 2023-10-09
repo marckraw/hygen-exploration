@@ -1,20 +1,33 @@
 {
   "name": "hygen-exploration",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This is hygen-exploration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hygen": "hygen",
+    "new:something": "echo 'new something'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marckraw/hygen-exploration.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "files": [
+    "/_templates",
+    "README.md"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/marckraw/hygen-exploration/issues"
   },
-  "homepage": "https://github.com/marckraw/hygen-exploration#readme"
+  "homepage": "https://github.com/marckraw/hygen-exploration#readme",
+  "devDependencies": {
+    "hygen": "^6.2.11"
+  }
 }
